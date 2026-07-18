@@ -1,0 +1,19 @@
+genome_id	gene_accession	gene_name	identity_pct	coverage_pct	drug_class	antibiotics
+1226680.5	OqxB_1_EU370913	OqxB	98.83	100.0	Amphenicol, Quinolone, Quaternary Ammonium Compounds, Folate pathway antagonist	Chloramphenicol;Benzylkonium Chloride;Cetylpyridinium Chloride;Nalidixic acid;Ciprofloxacin;Trimethoprim
+1226680.5	OqxA_1_EU370913	OqxA	99.23	100.0	Amphenicol, Quinolone, Quaternary Ammonium Compounds, Folate pathway antagonist	Chloramphenicol;Benzylkonium Chloride;Cetylpyridinium Chloride;Nalidixic acid;Ciprofloxacin;Trimethoprim
+1226680.5	blaSHV-99_1_AM941845	blaSHV-99	99.88	100.0	Beta-lactam	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin
+1226680.5	fosA6_1_KU254579	fosA6	98.58	97.92	Fosfomycin	Fosfomycin
+1389422.3	aph(3')-Ia_1_V00359	aph(3')-Ia	100.0	100.0	Aminoglycoside	Neomycin;Kanamycin;Lividomycin;Paromomycin;Ribostamycin
+1389422.3	sul2_3_HQ840942	sul2	100.0	100.0	Folate pathway antagonist	Sulfamethoxazole
+1389422.3	aph(6)-Id_1_M28829	aph(6)-Id	100.0	100.0	Aminoglycoside	Streptomycin
+1389422.3	OqxA_1_EU370913	OqxA	99.41	100.0	Amphenicol, Quinolone, Quaternary Ammonium Compounds, Folate pathway antagonist	Chloramphenicol;Benzylkonium Chloride;Cetylpyridinium Chloride;Nalidixic acid;Ciprofloxacin;Trimethoprim
+1389422.3	OqxB_1_EU370913	OqxB	99.02	100.0	Amphenicol, Quinolone, Quaternary Ammonium Compounds, Folate pathway antagonist	Chloramphenicol;Benzylkonium Chloride;Cetylpyridinium Chloride;Nalidixic acid;Ciprofloxacin;Trimethoprim
+1389422.3	qnrB1_1_DQ351241	qnrB1	100.0	100.0	Quinolone	Ciprofloxacin
+1389422.3	blaTEM-1B_1_AY458016	blaTEM-1B	100.0	100.0	Beta-lactam	Amoxicillin;Ampicillin;Cephalothin;Piperacillin;Ticarcillin
+1389422.3	blaCTX-M-15_1_AY044436	blaCTX-M-15	100.0	100.0	Beta-lactam	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin
+1389422.3	dfrA14_5_DQ388123	dfrA14	99.59	100.0	Folate pathway antagonist	Trimethoprim
+1389422.3	aac(6')-Ib-cr_1_DQ303918	aac(6')-Ib-cr	100.0	100.0	Quinolone	Ciprofloxacin
+1389422.3	blaOXA-1_1_HQ170510	blaOXA-1	100.0	100.0	Beta-lactam	Amoxicillin;Amoxicillin+Clavulanic acid;Ampicillin;Ampicillin+Clavulanic acid;Cefepime;Piperacillin;Piperacillin+Tazobactam
+1389422.3	catB3_1_AJ009818	catB3	100.0	69.83	Amphenicol	Chloramphenicol
+1389422.3	blaSHV-172_1_KF513177	blaSHV-172	99.65	100.0	Beta-lactam	Unknown Beta-lactam
+1389422.3	fosA6_1_KU254579	fosA6	98.11	97.92	Fosfomycin	Fosfomycin
