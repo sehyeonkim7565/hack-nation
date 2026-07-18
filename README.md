@@ -1,5 +1,7 @@
 # Genome Firewall — *K. pneumoniae* AMR Decision-Support Pilot
 
+**Live app:** https://hack-nation-6vjg298pfnsih9rwfi9fov.streamlit.app/
+
 > **This is a preliminary pilot built on n=25 lab-confirmed genomes due to time constraints of a 24-hour hackathon. Results should be treated as a proof-of-concept for the pipeline architecture, not as clinically meaningful predictions. Production deployment would require the full BV-BRC AMR Panel cohort (~6,700 *K. pneumoniae* genomes).**
 
 **This is an extremely limited pilot cohort (n=25).** The original target was 1,000–3,000 genomes; what was actually available and lab-confirmed is ~1–2% of that. Every number in this document should be read with that in mind. This tool is a **defensive, decision-support prototype only**. It never designs, modifies, or synthesizes an organism. Every prediction carries a fixed disclaimer: **all results must be reconfirmed by standard laboratory antimicrobial susceptibility testing before any clinical or treatment decision is made.**
@@ -157,6 +159,8 @@ streamlit run src/module03_app/app.py
 ```
 
 ## 7. Deploying (Streamlit Community Cloud, free)
+
+**Already deployed:** https://hack-nation-6vjg298pfnsih9rwfi9fov.streamlit.app/
 
 `requirements.txt` (Python deps) and `packages.txt` (`ncbi-blast+`, an apt dependency) are included at the repo root, and `app.py` auto-builds the BLAST database on first run — so no manual setup step is needed on the host.
 
