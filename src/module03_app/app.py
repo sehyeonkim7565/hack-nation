@@ -28,6 +28,25 @@ from detect_amr_genes import (  # noqa: E402
 )
 from predict import predict_all, DISCLAIMER  # noqa: E402
 
+BLAST_DB_DIR = REPO_ROOT / "data" / "blast_db"
+BLAST_DB_PREFIX = BLAST_DB_DIR / "resfinder"
+
+
+@st.cache_resource
+def ensure_blast_db_built():
+    if (BLAST_DB_DIR / "resfinder.nsq").exists() or (BLAST_DB_DIR / "resfinder.nal").exists():
+        return
+    BLAST_DB_DIR.mkdir(parents=True, exist_ok=True)
+    subprocess.run(
+        ["makeblastdb", "-in", str(REPO_ROOT / "reference_db" / "resfinder_all.fsa"),
+         "-dbtype", "nucl", "-out", str(BLAST_DB_PREFIX),
+         "-title", "ResFinder acquired AMR gene DB"],
+        check=True, capture_output=True,
+    )
+
+
+ensure_blast_db_built()
+
 st.set_page_config(page_title="Genome Firewall - K. pneumoniae AMR Pilot", layout="wide")
 
 st.title("Genome Firewall: K. pneumoniae AMR Decision Support (Pilot)")

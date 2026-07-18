@@ -155,3 +155,11 @@ cd ../..
 
 streamlit run src/module03_app/app.py
 ```
+
+## 7. Deploying (Streamlit Community Cloud, free)
+
+`requirements.txt` (Python deps) and `packages.txt` (`ncbi-blast+`, an apt dependency) are included at the repo root, and `app.py` auto-builds the BLAST database on first run — so no manual setup step is needed on the host.
+
+1. Go to [share.streamlit.io](https://share.streamlit.io), sign in with GitHub, click "New app".
+2. Repo: `sehyeonkim7565/hack-nation`, branch: `claude/kpneu-amr-prediction-f3llev`, main file path: `src/module03_app/app.py`.
+3. Deploy. First boot takes a bit longer while the BLAST DB is built; subsequent restarts are fast.
